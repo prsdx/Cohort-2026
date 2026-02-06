@@ -1,0 +1,76 @@
+:root{
+    --text-color: ;
+    --accent-color:  #4caf;
+    --accent-hover-color: ;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #1d1d1d;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+}
+nav {
+    background-color: #d5d5d5;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 20px auto;
+    padding: 10px 20px;
+    border-radius: 8px;
+}
+
+nav h1 {
+    color: #333333;
+    font-size: 24px;
+}
+nav div a {
+    color: #333333;
+    text-decoration: none;
+    margin-left: 15px;
+    font-size: 18px;
+}
+
+nav div a:hover{
+    text-decoration: underline;
+}
+
+nav div button{
+    background-color:var(--accent-color);
+    color: #ffffff;
+    border: none;
+    padding: 8px 16px;
+    font-size: 16px;
+    border-radius: 4px;
+}
+nav div button:hover {
+    background-color: var(--accent-hover-color);
+}
+
+main{
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    width: 80%;
+    margin: 20px auto;
+    gap: 20px;
+}
+
+.main-left {
+    /* width: 80%; What is the meaning of width */
+    width: 80%;
+    margin:60px auto;
+    columns: #fff;
+    padding: 20px;
+
+}
+.main-left h2{
+    font-size: 80px;
+    margin-bottom: 15px;
+
+}
